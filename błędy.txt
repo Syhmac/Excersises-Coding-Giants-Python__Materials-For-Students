@@ -1,0 +1,8 @@
+TypeError: can only concatenate str (not "int") to str
+Próba połączenia tekstu z liczbą. Python nie wie co z tym zrobić. Trzeba liczbę zamienić na tekst za pomocą funkcji str()
+
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Próba połączenia tekstu z liczbą. Python nie wie co z tym zrobić. Trzeba liczbę zamienić na tekst za pomocą funkcji str()
+
+IndexError: list index out of range
+Próbujemy dostać się do elementu, który znajduje się poza listą. Lista nie ma tylu elementów.
