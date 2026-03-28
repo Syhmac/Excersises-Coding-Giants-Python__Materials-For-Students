@@ -11,7 +11,16 @@ colors = ['yellow', 'blue', 'green', 'white']
 # print(f'2: {colors[2]}')
 # print(f'3: {colors[3]}')
 
-for color in colors:
-	print(color)
+print(*range(5)) # Od 0 - 4
+print(*range(10, 20)) # Od 10 - 19
+print(*range(10, 20, 2)) # Co druga liczba w zakresie od 10 do 19
+print(*range(5, 25, 5))
+print(*range(5, 0, -1)) # Liczenie w tył
 
-print(f'Długość listy: {len(colors)}')
+for i in range(0, len(colors)):
+	print(colors[i])
+
+# for color in colors:
+# 	print(color)
+
+# print(f'Długość listy: {len(colors)}')
